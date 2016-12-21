@@ -141,7 +141,7 @@ int main ()
 	int **lidaTxt;
 	list <int> l;
 	list <int>::iterator k;
-        char url[]="/local/hmachado/Desktop/nathalia/matriz.txt", ch1, ch2, ch3;
+        char url[]="matriz.txt", ch1, ch2, ch3;
 	FILE *arq;
 
 	arq = fopen(url, "r");
