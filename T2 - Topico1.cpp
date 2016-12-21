@@ -141,7 +141,7 @@ int main ()
 	int **lidaTxt;
 	list <int> l;
 	list <int>::iterator k;
-    char url[]="matriz.txt", ch1, ch2, ch3;
+        char url[]="/local/hmachado/Desktop/nathalia/matriz.txt", ch1, ch2, ch3;
 	FILE *arq;
 
 	arq = fopen(url, "r");
@@ -162,8 +162,6 @@ int main ()
 	n_are = (n_ver*(n_ver-1))/2;
 	vertices = (vertice*)malloc(n_ver * sizeof(vertice));
 	
-	lidaTxt = (int **)malloc(n_ver * n_ver * sizeof(int));
-
 	printf("Malloc feito!!!\n");
 
 	inicializaGrafo(vertices, n_ver);
